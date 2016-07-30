@@ -11,7 +11,7 @@
     "require": {
         "silex/silex" : "~2.0",
         "illuminate/validation" : "~5.2",
-        "groovey/helper" : "dev-master"
+        "groovey/support" : "dev-master"
     },
     "autoload": {
         "psr-4": {
