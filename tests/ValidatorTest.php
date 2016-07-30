@@ -6,9 +6,9 @@ use Illuminate\Validation\Validator;
 
 class ValitorTest extends PHPUnit_Framework_TestCase
 {
-    private $app;
+    public $app;
 
-    protected function setUp()
+    public function setUp()
     {
         $app = new Application();
         $app['debug'] = true;
