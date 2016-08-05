@@ -12,6 +12,7 @@ Groovey Validator Package
 
 require_once __DIR__.'/vendor/autoload.php';
 
+use Silex\Application;
 use Groovey\Validator\Providers\ValidatorServiceProvider;
 
 $app = new Application();
@@ -41,6 +42,6 @@ if ($status) {
 
 } else {
     $errors = $validator->errors();
-    print_r($errors);
+    dump($errors);
 }
 ```
