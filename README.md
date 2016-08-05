@@ -8,6 +8,8 @@ Groovey Validator Package
 ## Usage
 
 ```php
+<?php
+
 require_once __DIR__.'/vendor/autoload.php';
 
 use Groovey\Validator\Providers\ValidatorServiceProvider;
