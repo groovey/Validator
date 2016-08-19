@@ -1,5 +1,5 @@
 {
-    "name": "groovey/validaor",
+    "name": "groovey/validator",
     "description": "Groovey Validator Package.",
     "keywords": ["silex", "groovey"],
     "authors": [
