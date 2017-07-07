@@ -23,12 +23,12 @@ class ValitorTest extends PHPUnit_Framework_TestCase
         $app = $this->app;
 
         $validator = $app['validator']->make([
-            'name' => '',
-            'email' => 'not an email',
-        ], [
-            'name' => 'required',
-            'email' => 'required|email',
-        ]);
+                'name'  => '',
+                'email' => 'not an email',
+            ], [
+                'name'  => 'required',
+                'email' => 'required|email',
+            ]);
 
         $status = $validator->fails();
         $this->assertTrue($status);
