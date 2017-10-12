@@ -46,3 +46,10 @@ if ($status) {
     dump($errors);
 }
 ```
+
+
+## Documentation
+
+   * [Laravel Validation](https://laravel.com/docs/master/validation)
+
+
